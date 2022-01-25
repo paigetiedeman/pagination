@@ -76,5 +76,8 @@ export class AppComponent {
 
   ];
 
+  checkWindowIndex(i: number) {
+    return Math.abs(this.currentPage - i) < 5;
+  }
 
 }
